@@ -1,5 +1,5 @@
 # LFighter: Defending against Label-flipping Attacks in Federated Learning.
-This repository contains PyTorch implementation of the paper ''LFighter: Defending against Label-flipping Attacks in Federated Learning''.
+This repository contains PyTorch implementation of the paper ``LFighter: Defending against Label-flipping Attacks in Federated Learning''.
 
 ## Paper 
 
