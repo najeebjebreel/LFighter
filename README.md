@@ -40,12 +40,6 @@ After downloading [IMDB](https://ai.stanford.edu/~amaas/data/sentiment/), please
 *Results of source class stability under the label-flipping attack with 40% attackers.* </br></br>
 
 
-<img src="results/cifar10_iid_stability.png" width="50%"><img src="results/cifar10_mild_stability.png" width="50%">
-
-*Results of source class stability under the label-flipping attack with 30% attackers on the CIFAR10-IID benchmark (left), CIFAR10-Mild benchmark (right).*
-</br></br>
-
-
 
 
 ## Citation 
