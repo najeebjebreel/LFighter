@@ -42,7 +42,7 @@ After downloading [IMDB](https://ai.stanford.edu/~amaas/data/sentiment/), please
 
 
 ## Citation 
-
+Jebreel, N. M., Domingo-Ferrer, J., Sánchez, D., & Blanco-Justicia, A. (2024). LFighter: Defending against the label-flipping attack in federated learning. Neural Networks, 170, 111-126.
 
 
 ## Funding
