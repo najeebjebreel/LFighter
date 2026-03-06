@@ -5,7 +5,7 @@
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.6%2B-orange)](https://pytorch.org/)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
-> Official PyTorch implementation of the paper **"LFighter: Defending against the Label-Flipping Attack in Federated Learning"**, published in *Neural Networks*, vol. 170, pp. 111–126, 2024.
+> Official PyTorch implementation of the paper **"LFighter: Defending against the Label-Flipping Attack in Federated Learning"**, published in *Neural Networks*, vol. 170, pp. 111–126, Elsevier, 2024.
 
 ---
 
@@ -19,9 +19,9 @@ This repository provides a fully reproducible implementation of all experiments 
 
 ## Paper
 
-**LFighter: Defending against the Label-Flipping Attack in Federated Learning**  
-Najeeb M. Jebreel, Josep Domingo-Ferrer, David Sánchez, Alberto Blanco-Justicia  
-*Neural Networks*, vol. 170, pp. 111–126, Elsevier, 2024  
+**LFighter: Defending against the Label-Flipping Attack in Federated Learning**
+Najeeb M. Jebreel, Josep Domingo-Ferrer, David Sánchez, Alberto Blanco-Justicia
+*Neural Networks*, vol. 170, pp. 111–126, Elsevier, 2024
 🔗 [Read on ScienceDirect](https://www.sciencedirect.com/science/article/abs/pii/S0893608023006421)
 
 ---
@@ -51,8 +51,6 @@ LFighter/
 ├── requirements.txt
 └── README.md
 ```
-
-Each notebook in `notebooks/` is self-contained and walks through data loading, federated training, attack simulation, and defense evaluation for the corresponding benchmark.
 
 ---
 
@@ -137,22 +135,31 @@ If you use this code or build upon this work, please cite:
   volume    = {170},
   pages     = {111--126},
   year      = {2024},
-  publisher = {Elsevier}
+  publisher = {Elsevier},
+  doi       = {10.1016/j.neunet.2023.11.047}
 }
 ```
 
 ---
 
-## Funding
+## Acknowledgment
 
-This research was supported by:
+This research was funded by the European Commission (projects H2020-871042 "SoBigData++" and H2020-101006879 "MobiDataLab"), the Government of Catalonia (ICREA Acadèmia Prizes to J. Domingo-Ferrer and D. Sánchez, grant no. 2021 SGR 00115, and FI_B00760 grant to N. Jebreel), and MCIN/AEI/10.13039/501100011033 and "ERDF A way of making Europe" under grant PID2021-123637NB-I00 "CURLING". The authors are with the UNESCO Chair in Data Privacy, but the views in this paper are their own and are not necessarily shared by UNESCO.
 
-- **European Commission** — H2020-871042 (*SoBigData++*) and H2020-101006879 (*MobiDataLab*)
-- **Government of Catalonia** — ICREA Acadèmia Prizes (J. Domingo-Ferrer, D. Sánchez); FI doctoral grant (N. Jebreel)
-- **MCIN/AEI** (10.13039/501100011033) and *ERDF A way of making Europe* — grant PID2021-123637NB-I00 (*CURLING*)
+---
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
 ## Affiliation
 
 Developed at the **[CRISES Research Group](https://crises-deim.urv.cat/)**, [Universitat Rovira i Virgili (URV)](https://www.urv.cat/en/), Tarragona, Catalonia.
+
+---
+
+## Contact
+
+For questions or issues, please open a [GitHub issue](https://github.com/najeebjebreel/LFighter/issues) or contact [Najeeb Jebreel](mailto:nageeb3gebreel@gmail.com).
