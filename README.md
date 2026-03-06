@@ -3,7 +3,7 @@ This repository contains PyTorch implementation of the paper ''LFighter: Defendi
 
 ## Paper 
 
-[LFighter: Defending against Label-flipping Attacks in Federated Learning]()
+[LFighter: Defending against Label-flipping Attacks in Federated Learning](https://www.sciencedirect.com/science/article/abs/pii/S0893608023006421)
 
 ## Content
 The repository contains one jupyter notebook for each benchmark which can be used to re-produce the experiments reported in the paper for that benchmark. The notebooks contain clear instructions on how to run the experiments. 
