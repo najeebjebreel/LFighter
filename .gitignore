@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.so
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data files (too large for git)
+data/*.csv
+data/*.tsv
+data/*.json
+data/*.pkl
+data/*.pt
+data/*.pth
+
+# Checkpoints & results (large binary files)
+checkpoints/*.pt
+checkpoints/*.pth
+results/*.pt
+results/*.pth
+results/*.pkl
+
+# Virtual environments
+venv/
+env/
+.env
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Distribution / packaging
+*.manifest
+*.spec

@@ -30,18 +30,29 @@ Najeeb M. Jebreel, Josep Domingo-Ferrer, David Sánchez, Alberto Blanco-Justicia
 
 ```
 LFighter/
-├── MNIST/                  # Notebook and utilities for the MNIST benchmark
-├── CIFAR10/                # Notebook and utilities for the CIFAR-10 benchmark
-├── IMDB/
-│   ├── data/               # Place imdb.csv here after manual download
-│   └── ...                 # Notebook and utilities for the IMDB benchmark
-├── figures/                # Result figures referenced in this README
+├── notebooks/                      # Jupyter notebooks for each benchmark
+│   ├── Experiments_MNIST.ipynb
+│   ├── Experiments_CIFAR10.ipynb
+│   └── Experiments_IMDB_IID.ipynb
+├── src/                            # Core Python source modules
+│   ├── aggregation.py              # Aggregation rules (LFighter + baselines)
+│   ├── datasets.py                 # Dataset loaders
+│   ├── environment_federated.py    # Federated learning environment
+│   ├── experiment_federated.py     # Experiment runner
+│   ├── models.py                   # Model architectures
+│   ├── sampling.py                 # Data sampling utilities
+│   └── utils.py                    # General utilities
+├── data/                           # Place IMDB dataset here (see below)
+├── checkpoints/                    # Model checkpoints (auto-generated)
+├── results/                        # Experiment results (auto-generated)
+├── figures/                        # Result figures referenced in this README
 │   ├── main_results.PNG
 │   └── stability_all.PNG
+├── requirements.txt
 └── README.md
 ```
 
-Each benchmark is self-contained in its own directory as a Jupyter notebook with clear inline instructions for reproducing the corresponding experiments from the paper.
+Each notebook in `notebooks/` is self-contained and walks through data loading, federated training, attack simulation, and defense evaluation for the corresponding benchmark.
 
 ---
 
@@ -58,7 +69,7 @@ Each benchmark is self-contained in its own directory as a Jupyter notebook with
 ### Setup
 
 ```bash
-git clone https://github.com/<your-username>/LFighter.git
+git clone https://github.com/najeebjebreel/LFighter.git
 cd LFighter
 pip install -r requirements.txt
 ```
@@ -79,7 +90,7 @@ pip install -r requirements.txt
 2. Save the file as `imdb.csv` in the following path:
 
 ```
-LFighter/IMDB/data/imdb.csv
+LFighter/data/imdb.csv
 ```
 
 ---
@@ -89,12 +100,12 @@ LFighter/IMDB/data/imdb.csv
 Open the Jupyter notebook corresponding to the benchmark of interest and follow the inline instructions:
 
 ```bash
-jupyter notebook MNIST/lfighter_mnist.ipynb
-jupyter notebook CIFAR10/lfighter_cifar10.ipynb
-jupyter notebook IMDB/lfighter_imdb.ipynb
+jupyter notebook notebooks/Experiments_MNIST.ipynb
+jupyter notebook notebooks/Experiments_CIFAR10.ipynb
+jupyter notebook notebooks/Experiments_IMDB_IID.ipynb
 ```
 
-Each notebook is fully self-contained and walks through data loading, federated training, attack simulation, and defense evaluation.
+Each notebook walks through data loading, federated training, attack simulation, and defense evaluation with inline instructions.
 
 ---
 
