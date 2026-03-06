@@ -44,6 +44,16 @@ After downloading [IMDB](https://ai.stanford.edu/~amaas/data/sentiment/), please
 ## Citation 
 Jebreel, N. M., Domingo-Ferrer, J., Sánchez, D., & Blanco-Justicia, A. (2024). LFighter: Defending against the label-flipping attack in federated learning. Neural Networks, 170, 111-126.
 
+``@article{jebreel2024lfighter,
+  title={LFighter: Defending against the label-flipping attack in federated learning},
+  author={Jebreel, Najeeb Moharram and Domingo-Ferrer, Josep and S{\'a}nchez, David and Blanco-Justicia, Alberto},
+  journal={Neural Networks},
+  volume={170},
+  pages={111--126},
+  year={2024},
+  publisher={Elsevier}
+}''
+
 
 ## Funding
 This research was funded by the European Commission (projects H2020-871042 ``SoBigData++'' and H2020-101006879 ``MobiDataLab''), the Government of Catalonia (ICREA Acad\`emia Prizes to J.Domingo-Ferrer and to D. S\'anchez, FI grant to N. Jebreel), and MCIN/AEI/ 10.13039/501100011033 and ``ERDF A way of making Europe'' under grant PID2021-123637NB-I00 ``CURLING''. 
